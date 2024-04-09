@@ -1,0 +1,18 @@
+.ThingsToDoBackground {
+  background-image: url("https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712613513/RoyalEmber%20Hotel/LangingPage/goldenGate_zg9gx2.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 25rem;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ThingsToDoBackground {
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: block;
+  }
+}

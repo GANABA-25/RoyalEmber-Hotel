@@ -1,0 +1,20 @@
+.ContactBackground {
+  background-image: url("https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712613495/RoyalEmber%20Hotel/LangingPage/gallary_2_lyc1qq.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 25rem;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+  .ContactBackground {
+    background-size: cover;
+    background-position: bottom;
+    object-position: cover;
+    height: 50vh;
+    width: 100%;
+    display: block;
+  }
+}

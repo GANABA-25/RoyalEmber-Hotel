@@ -1,0 +1,37 @@
+.roomsBackground {
+  background-image: url("https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712613402/RoyalEmber%20Hotel/Rooms/roomsBackground_qtwlvl.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 25rem;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+  .roomsBackground {
+    background-position: bottom;
+    height: 50vh;
+    width: 100%;
+    display: block;
+  }
+}
+
+.reservationBackground {
+  background-image: url("https://res.cloudinary.com/dmdnq9vh8/image/upload/v1712613513/RoyalEmber%20Hotel/LangingPage/goldenGate_zg9gx2.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+  .reservationBackground {
+    margin: 60px 0px 60px 0px;
+  }
+}
